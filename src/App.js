@@ -32,7 +32,7 @@ function App() {
         </div>
       </main>
       <footer>
-        <p>© igawile</p>
+        <p>© fuma igarashi</p>
         <p>Design: hkskshn</p>
       </footer>
     </div>
