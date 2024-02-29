@@ -1,5 +1,7 @@
-  body {
-    background-color: #dbdbdb;
+body {
+  background-color: #dbdbdb;
+}
+.App {
     font-family: "Courier New", sans-serif;
     color: black;
     font-size: 16px;
@@ -7,37 +9,10 @@
     font-weight: 400;
     letter-spacing: 0.01em;
     line-height: 20px;
-    margin: 80px;
     text-decoration: none; /* Added semicolon */
-  }
-  
-  .inner {
     text-align: center;
   }
-  
+
   a {
-    text-decoration: none;
-    color: blue; /* Combine both 'a' styles into one */
+    color: rgb(0, 0, 0);
   }
-  
-  a:hover {
-    background-color: #dbdbdb;
-    color: red;
-  }
-  
-  .youtube iframe {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .centering_parent {
-    padding: 20px;
-    text-align: center;
-    background-color: #ddd;
-    height: 100px;
-  }
-  
-  .centering_item {
-    background-color: #FFEB3B;
-  }
-  
