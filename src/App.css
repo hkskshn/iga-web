@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  body {
+    background-color: #dbdbdb;
+    font-family: "Courier New", sans-serif;
+    color: black;
+    font-size: 16px;
+    font-style: italic; /* Added semicolon */
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    line-height: 20px;
+    margin: 80px;
+    text-decoration: none; /* Added semicolon */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .inner {
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  
+  a {
+    text-decoration: none;
+    color: blue; /* Combine both 'a' styles into one */
   }
-}
+  
+  a:hover {
+    background-color: #dbdbdb;
+    color: red;
+  }
+  
+  .youtube iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .centering_parent {
+    padding: 20px;
+    text-align: center;
+    background-color: #ddd;
+    height: 100px;
+  }
+  
+  .centering_item {
+    background-color: #FFEB3B;
+  }
+  
